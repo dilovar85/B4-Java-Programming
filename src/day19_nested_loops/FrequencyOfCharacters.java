@@ -29,7 +29,7 @@ public class FrequencyOfCharacters {
             for (int j = 0; j < str.length(); j++) {
 
                 char innerLetter = str.charAt(j);           // a  - p - p - l - e if (outerLetter == innerLetter) {
-                count++;
+
                 if (outerLetter == innerLetter) {
                     count++;
                 }
@@ -38,6 +38,7 @@ public class FrequencyOfCharacters {
 
             System.out.println(outerLetter + " - " + count);
             unique += outerLetter;
+
 
         }
     }
