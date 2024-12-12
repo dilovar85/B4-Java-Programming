@@ -9,8 +9,8 @@ public class VoidVsReturn {
         sayHi2();
         System.out.println(sayHi2());
 
-        String str = sayHi2();
-        System.out.println(str);
+       // String str = sayHi2();
+        //System.out.println(str);
 
 
     }
@@ -23,7 +23,7 @@ public class VoidVsReturn {
 
     // This is a return type method - which means it RETURNS something. Something can be any data type
     public static String sayHi2 () {
-        String str = "Hi";  // Local Variable
+        String str = "Hi parameter";  // Local Variable
         return str;
     }
 

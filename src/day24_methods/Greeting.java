@@ -7,7 +7,7 @@ public class Greeting {
         // String name = "Micky"; // "Jerry";
         // System.out.println("Hello " + name + "! How are you?");
 
-        sayHello();
+        //sayHello();
         sayHello2("Tom");
         sayHello2("Jim");
         String name = "Micky";

@@ -2,7 +2,7 @@ package day18_loops;
 
 public class CountJava {
     public static void main(String[] args) {
-        String str = "java is a good coding language and java requires good logics java";
+        String str = "java is a good coding language and java requires good logics java for all";
         //            0123456                                                    java
         int countJava = 0;
 
