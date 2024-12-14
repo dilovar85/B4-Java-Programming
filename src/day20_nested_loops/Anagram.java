@@ -37,7 +37,7 @@ public class Anagram {
 
             }
 
-            if (str2.isEmpty()) {
+            if (str2.isEmpty()) {                //str2.isEmpty()
                 System.out.println("It is Anagram");
             } else {
                 System.out.println("Not Anagram");
