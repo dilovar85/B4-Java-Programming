@@ -37,10 +37,5 @@ public class QueueObjects {
         System.out.println(priorityQueue);
 
 
-
-
-
-
-
     }
 }
