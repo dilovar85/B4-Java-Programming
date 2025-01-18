@@ -1,4 +1,4 @@
-package day41_collection.queue;
+package day42_a_collection.collection;
 
 import java.util.PriorityQueue;
 
