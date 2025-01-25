@@ -9,7 +9,7 @@ package day18_loops;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        String str = "sdjkfhdskjhfskdjfh";
+        String str = "abbddtw";
         String unique = "";
 
 
@@ -18,7 +18,7 @@ public class RemoveDuplicates {
             char eachChar = str.charAt(i);
 
             // if unique DOES NOT have eachChar, then add
-            if (!unique.contains("" + eachChar)){
+            if (!unique.contains("" + eachChar)) {
                 unique += eachChar;
             }
 
@@ -27,11 +27,18 @@ public class RemoveDuplicates {
         System.out.println("Original: " + str);
         System.out.println("Uniques: " + unique);
 
+        String unique2 = "";
 
+        for (int i = 0; i < str.length(); i++) {
+            // Check if the character has already been added to unique2
+            if (unique2.indexOf(str.charAt(i)) == -1) {
+                unique2 += str.charAt(i);
 
             }
-
-            }
+        }
+        System.out.println(unique2);
+    }
+}
 
 
 
